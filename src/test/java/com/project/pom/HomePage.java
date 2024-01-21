@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class HomePage extends Base {
 
     By productLabel = By.id("menu_button_container");
+    By productSort = By.className("product_sort_container");
 
     public Boolean isProductLabelDisplayed() {
         return isDisplayed(productLabel);
